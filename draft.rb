@@ -1,30 +1,30 @@
 class Draft < Formula
   desc "A Markdown template generator written in Zig"
   homepage "https://github.com/linyows/draft"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/linyows/draft/releases/download/v#{version}/draft-darwin-amd64.tar.gz"
-      sha256 "099b4bf821b9ad5e12baab95009822cd5e6490e7a7b43496267fb2912632dadc"
+      sha256 "eef0585637e4dd7e6857890f37eac1f1660e7961d970aa8b9af7f5271df309b2"
     end
 
     on_arm do
       url "https://github.com/linyows/draft/releases/download/v#{version}/draft-darwin-arm64.tar.gz"
-      sha256 "557e05490cf88d7d731d59ae090a8f0c993d4c87a013b1b7887ee42926aea3ff"
+      sha256 "784459b6fa0c6015ebc1fd529fa13143c110bc5678b038f6bb2adbb1f6481320"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/linyows/draft/releases/download/v#{version}/draft-linux-amd64.tar.gz"
-      sha256 "a7f59f8027abacb48617941303b29d3e77c73fb436541375b8ead045068e59d9"
+      sha256 "d176e89c6d7a57e06acb582f1d914b6ab9a7682a3df01eaf42d724ff6ffae355"
     end
 
     on_arm do
       url "https://github.com/linyows/draft/releases/download/v#{version}/draft-linux-arm64.tar.gz"
-      sha256 "e1f301b5b9039eced1b7576ab1eed24edfee731f3a7ea93e7cf64a08a399b29b"
+      sha256 "c723d7545653d35412ac517e446fa02b3c6705dcde19f33b811ce12fe9d21a6b"
     end
   end
 
